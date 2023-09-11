@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    font-family: Arial;
+    font-size: 140%;
+    background-color: rgb(250, 249, 255);
+}
+
+.index-top-section {
+    display: grid;
+    text-align: center;
+    background-color: rgb(241, 238, 255);
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+}
+
+.about-me {
+    display: grid;
+    text-align: start;
+    border-style: solid;
+}
+
+.hobbies {
+    display: grid;
+    text-align: end;
+    border-style: solid;
+
+}
