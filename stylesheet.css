@@ -3,7 +3,7 @@
     justify-content: center;
     border-style: double;
     border-width: 15px;
-    border-color: rgba(0, 47, 78, 0.397);
+    border-color: rgba(125, 203, 255, 0.397);
     padding: 5px;
 
 
@@ -24,14 +24,15 @@ nav.more-about-me-link {
 body {
     font-family: Arial;
     font-size: 140%;
-    background-color: rgb(255, 255, 243);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 .about-me-section {
     display: grid;
     grid-auto-flow: column;
     padding: 10px;
-    background-color: blanchedalmond;
+    background-color: rgb(0, 0, 0);
     justify-content: space-evenly;
 }
 
@@ -48,14 +49,14 @@ img.pic-of-me {
     width: 550px;
     border-style: inset;
     border-width: thick;
-    border-color: rgb(134, 134, 134);
+    border-color: rgb(0, 0, 0);
 }
 
 .hobbies-section {
     display: grid;
     grid-auto-flow: column;
     justify-self: right;
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     padding: 10px;
 
 }
