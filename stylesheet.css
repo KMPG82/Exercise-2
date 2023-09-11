@@ -1,28 +1,66 @@
-body {
-    display: grid;
-    font-family: Arial;
-    font-size: 140%;
-    background-color: rgb(250, 249, 255);
-}
-
 .index-top-section {
     display: grid;
-    text-align: center;
-    background-color: rgb(241, 238, 255);
+    justify-content: center;
     border-style: double;
-    border-color: rgb(0, 0, 0);
-    border-width: 10px;
+    border-width: 15px;
+    border-color: rgba(0, 47, 78, 0.397);
+    padding: 5px;
+
+
 }
 
-.about-me {
-    display: grid;
-    text-align: start;
-    border-style: solid;
+.welcome-header {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 
-.hobbies {
-    display: grid;
-    text-align: end;
-    border-style: solid;
+nav.more-about-me-link {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+body {
+    font-family: Arial;
+    font-size: 140%;
+    background-color: rgb(255, 255, 243);
+}
+
+.about-me-section {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+    background-color: blanchedalmond;
+    justify-content: space-evenly;
+}
+
+h2.about-me-header {
+    position: relative;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+p.about-me-paragraph {}
+
+img.pic-of-me {
+    width: 550px;
+    border-style: inset;
+    border-width: thick;
+    border-color: rgb(134, 134, 134);
+}
+
+.hobbies-section {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: right;
+    background-color: beige;
+    padding: 10px;
+
+}
+
+.hobbies-hdr-para {
+    display: grid;
+    justify-self: right;
 }
