@@ -10,25 +10,21 @@ body {
 .index-top-section {
     display: flex;
     flex-direction: column;
-    border-width: 15px;
     padding: 5px;
+    align-items: flex-end;
 }
 
 .welcome-header {
     font-style: italic;
-    margin-top: 10px;
-    margin: auto;
+    align-self: center;
 }
 
 nav.more-about-me-link {
-    display: flex;
-    justify-content: end;
+    width: 20rem;
 }
 
 .links {
     list-style-type: none;
-    padding-left: 5%;
-    margin-right: 100px;
 }
 
 body {
@@ -37,15 +33,15 @@ body {
     font-family: Arial;
     font-size: 140%;
     background-color: #EBF5DF;
-
 }
 
 .about-me-section {
     display: flex;
+    max-height: 400rem;
     padding: 10px;
     background-color: #BAD4AA;
-    justify-content: space-around;
-    text-align: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -59,15 +55,15 @@ img.pic-of-me {
     border-color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
 .hobbies-section {
     display: flex;
     background-color: #D4D4AA;
     padding: 10px;
-    justify-content: space-around;
-    text-align: start;
-    margin-bottom: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
 }
 
 
@@ -75,14 +71,18 @@ img.pic-of-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 550px;
-    margin: 20px
+    margin: 20px;
+    justify-content: center;
+
 }
 
-.bball {
+.pic {
+    width: 550px;
     border-style: inset;
     border-width: thick;
     border-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ul {
