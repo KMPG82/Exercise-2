@@ -23,7 +23,7 @@
         }
     }
 
-    .index-top-section {
+    .top-section {
         display: grid;
         padding: 5px;
     }
@@ -34,7 +34,7 @@
         text-align: center;
     }
 
-    .nav-bar {
+    .index-nav-bar {
         top: 0;
         margin: 0;
         padding: 0;
@@ -45,11 +45,11 @@
         position: sticky;
     }
 
-    .link1 {
+    .index-link {
         float: right;
     }
 
-    .link1 a {
+    .index-link a {
         display: block;
         text-decoration: none;
         color: white;
@@ -57,7 +57,7 @@
         padding: 5px;
     }
 
-    .link1 a:hover {
+    .index-link a:hover {
         background-color: #2b6280;
     }
 
@@ -105,5 +105,32 @@
 
     .hobbies-list {
         list-style-type: square;
+    }
+
+    .secondpage-nav-bar {
+        top: 0;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #588B8B;
+        overflow: hidden;
+        opacity: 0.7;
+        position: sticky;
+    }
+
+    .secondpage-link {
+        float: right;
+    }
+
+    .secondpage-link a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .secondpage-link a:hover {
+        background-color: #2b6280;
     }
 }
