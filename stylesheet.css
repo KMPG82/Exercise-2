@@ -1,3 +1,13 @@
+@media (max-width: 475px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 1280px) {}
+
 @media all {
     body {
         line-height: 1.5;
@@ -71,6 +81,7 @@
     .link a:hover {
         background-color: #2b6280;
     }
+
 
     .about-me-section {
         display: flex;
