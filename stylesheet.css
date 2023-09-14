@@ -78,6 +78,7 @@
         background-color: #333;
     }
 
+
     .list {
         float: right;
         margin-right: 2rem;
@@ -187,7 +188,7 @@
 
     }
 
-    .basketball-section-header-paragraph {
+    .basketball-section-header-paragraph-vid {
         text-align: center;
         width: 50rem;
     }
@@ -198,7 +199,7 @@
         width: 30rem;
         align-items: center;
         justify-content: center;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
 
 
     }
