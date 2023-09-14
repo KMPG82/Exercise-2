@@ -4,7 +4,7 @@
         letter-spacing: 1px;
         animation-duration: 2s;
         animation-name: slidein;
-        font-family: Arial;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 140%;
         background-color: #FFFFFF;
         margin: auto;
@@ -133,4 +133,39 @@
     .secondpage-link a:hover {
         background-color: #2b6280;
     }
+
+    main {
+        display: grid;
+    }
+
+    .basketball-section {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: lightblue;
+        flex-wrap: wrap;
+    }
+
+    .basketball-section-header-paragraph {
+        text-align: center;
+        width: 50rem;
+    }
+
+    .heat-logo,
+    .laker-logo {
+        display: grid;
+        width: 30rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        width: 30rem;
+    }
+
+    .heat {
+        width: 50rem;
+    }
+
+
+
 }
