@@ -9,6 +9,9 @@
 @media (max-width: 1280px) {}
 
 @media all {
+
+
+
     body {
         line-height: 1.5;
         letter-spacing: 1px;
@@ -40,46 +43,60 @@
         text-align: center;
     }
 
-    .nav-bar {
-        display: grid;
+    .top {
+        width: 100%;
+        background-color: aquamarine;
+        margin: 0%;
         top: 0;
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        background-color: #588B8B;
-        opacity: 0.7;
-        position: sticky;
     }
 
     .Kevin {
-        justify-self: start;
+        text-align: start;
         font-style: normal;
         color: red;
-        font-size: 4rem;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 2rem;
     }
 
     .Kevin span {
         color: black;
     }
 
-    .link {
-        position: absolute;
-        justify-self: end;
-        bottom: 0%;
+    nav {
+        position: sticky;
+        top: 0;
+        opacity: 90%;
     }
 
-    .link a {
+    .nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+
+
+    .list {
+        float: right;
+        margin-right: 2rem;
+    }
+
+    .text {
+        text-align: center;
+        font-size: large;
         display: block;
-        text-decoration: none;
         color: white;
-        padding: 5px;
+        padding: 10px 12px;
+        text-decoration: none;
         text-transform: uppercase;
     }
 
-    .link a:hover {
-        background-color: #2b6280;
+    .text:hover {
+        background-color: #474747;
     }
 
 
