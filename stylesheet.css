@@ -135,7 +135,9 @@
     }
 
     main {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .basketball-section {
@@ -151,14 +153,15 @@
     }
 
     .heat-logo,
-    .laker-logo {
+    .lakers-logo {
         display: grid;
         width: 30rem;
         align-items: center;
         justify-content: center;
+
     }
 
-    img {
+    .lakers {
         width: 30rem;
     }
 
@@ -168,4 +171,20 @@
 
 
 
+    .vid {
+        align-self: flex-end;
+    }
+
+
+    .vid-section {
+        display: flex;
+        justify-content: center;
+        background-color: lightblue;
+    }
+
+    .timeline {
+        background-color: rgb(111, 204, 235);
+        display: flex;
+        flex-direction: column;
+    }
 }
