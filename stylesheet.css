@@ -227,6 +227,8 @@
         flex-direction: column;
         background-color: #f7b77f;
         align-items: center;
+        background-image: linear-gradient(red, rgb(255, 90, 90), rgb(252, 171, 171));
+        margin-bottom: 10rem;
     }
 
     .timeline {
