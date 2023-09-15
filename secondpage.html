@@ -1,52 +1,37 @@
-<!-- declare version of HTML used -->
 <!DOCTYPE html>
-<!-- root of html doc -->
 <html lang="en">
-<!-- header section -->
 
 <head>
-    <!-- title -->
     <title>More About Me</title>
-    <!-- metadata -->
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<!-- body of doc -->
-
 <body class="secondpage-body">
     <div class="secondpage-logo-section">
-        <h2 class="Kevin">Kev<span>in</span></h2>
+        <h2 class="Kevin secondpage-Kevin">Kev<span>in</span></h2>
     </div>
     <nav>
         <ul class="nav-bar">
-
             <li class="list">
-                <!-- 11, 12: display hyperlink(s) as element of the ul -->
-                <a href="index.html" class="text"> Welcome to My Page!</a>
+                <a href="index.html" class="text secondpage-text"> Welcome to My Page!</a>
             </li>
         </ul>
     </nav>
-    <!-- define section -->
-    <div class="title-section">
-        <!-- title of page -->
+    <div class="title-section-secondpage">
         <h1 class="title">More About Me</h1>
     </div>
 
-    <!-- line break -->
     <br>
 
-    <!-- main content of page -->
     <main>
-        <!-- Basketball section -->
         <div class="basketball-section">
             <figure class="heat-logo">
                 <img src="miami-heat.png" class="heat">
             </figure>
+
             <div class="basketball-section-header-paragraph-vid">
-                <!-- header -->
                 <h2>Basketball</h2>
-                <!-- paragraph about basketball -->
                 <p>
                     Basketball has been a crucial part of my life and is my favorite hobby.
                     So, I think it deserves a dedicated section! Personally, I think it is
@@ -62,62 +47,56 @@
                     watch NBA games!
                 </p>
 
-                <figure class="vid">
-                    <!-- 26: embed vid -->
-                    <iframe width="660" height="415" src="https://www.youtube.com/embed/hHRxUHfHeoY?si=cIgtj5Dm7U_YDen8"
+                <figure>
+                    <iframe class="vid" src="https://www.youtube.com/embed/hHRxUHfHeoY?si=cIgtj5Dm7U_YDen8"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
-
                 </figure>
             </div>
+
             <figure class="lakers-logo">
                 <img src="Los-angeles-lakers.png" class="lakers">
             </figure>
-
-
         </div>
 
         <div class="timeline-section">
-            <h2>My Timeline</h2>
             <div class="timeline">
-                <div class="text-box">
-                    <div class="date">2000</div>
-                    <div class="description">
-                        Born and raised in California. </div>
+                <div class="box left">
+                    <div class="content">
+                        <h3>2000</h3>
+                        <p>Born and raised in California.</p>
+                    </div>
                 </div>
-
-                <div class="text-box">
-                    <div class="date">2019</div>
-                    <div class="description">
-                        Started attending community college as a Kinesiology major. </div>
+                <div class="box right">
+                    <div class="content">
+                        <h3>2019</h3>
+                        <p>Started attending community college as a Kinesiology major.</p>
+                    </div>
                 </div>
-
-                <div class="text-box">
-                    <div class="date">2021</div>
-                    <div class="description">
-                        Changed my major to Computer Science. </div>
+                <div class="box left">
+                    <div class="content">
+                        <h3>2021</h3>
+                        <p>Changed my major to Computer Science.</p>
+                    </div>
                 </div>
-
-                <div class="text-box">
-                    <div class="date">2023</div>
-                    <div class="description">
-                        Transferred to university. </div>
+                <div class="box right">
+                    <div class="content">
+                        <h3>2023</h3>
+                        <p>Transferred to university.</p>
+                    </div>
                 </div>
-
-                <div class="text-box last-text-box">
-                    <div class="date">2024 and Onwards</div>
-                    <div class="description">
-                        Continue my journey in the field of Computer Science. </div>
+                <div class="box left">
+                    <div class="content">
+                        <h3>2024 and Onwards</h3>
+                        <p>Continue my journey in the field of Computer Science.</p>
+                    </div>
                 </div>
-                <div class="arrow"></div>
             </div>
         </div>
     </main>
 
-    <!-- footer -->
     <footer>
-        <!-- creator -->
         <p>Created by: Kevin Ponting</p>
     </footer>
 </body>
