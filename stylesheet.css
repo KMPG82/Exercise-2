@@ -36,6 +36,10 @@
         }
     }
 
+    .index-body {
+        background-color: red;
+    }
+
     .logo-section {
         width: 100%;
         background-color: aquamarine;
@@ -174,6 +178,10 @@
         width: 500px;
     }
 
+    .secondpage-body {
+        background-color: green;
+    }
+
     .secondpage-logo-section {
         background-color: rgb(180, 209, 199);
         margin: 0%;
@@ -280,7 +288,7 @@
         content: "";
         position: absolute;
         top: 0;
-        bottom: 0;
+        bottom: 100px;
         left: 50%;
         width: 10px;
         background-color: #000000;
@@ -304,6 +312,11 @@
         transform: scale(1.1);
     }
 
+    .last-text-box {
+        margin-bottom: 50px;
+
+    }
+
     .date {
         font-weight: bold;
         text-align: center;
@@ -314,7 +327,7 @@
         text-align: center;
     }
 
-    .arrow {
+    /* .arrow {
         position: absolute;
         bottom: -15px;
         left: 50%;
@@ -325,6 +338,9 @@
         border-top: 25px solid #000000;
         transform: translateX(-37%);
         content: '';
-    }
+    } */
 
+    footer {
+        margin-top: 0px;
+    }
 }
