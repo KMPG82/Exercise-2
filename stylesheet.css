@@ -326,14 +326,17 @@ main {
     height: 415px;
 }
 
-@media screen and (max-width: 991px) and (min-width: 767px) {
+@media screen and (max-width: 991px) {
     body {
         background-color: lightslategray;
+    }
 
+    .Kevin {
+        font-size: 700%;
     }
 
     .text {
-        font-size: 90%;
+        font-size: 120%;
     }
 
     .secondpage-text {
@@ -358,17 +361,14 @@ main {
     }
 }
 
-/* 
-media query doesn't work after first breakpoint
-
-@media screen and (max-width: 766px) and (min-width:479px) {
+@media screen and (max-width: 767px) {
     body {
-        background-color: rgb(245, 245, 245);
+        background-color: rgb(149, 174, 199);
 
     }
 
     .text {
-        font-size: 1200%;
+        font-size: 120%;
     }
 
     .secondpage-text {
@@ -390,6 +390,36 @@ media query doesn't work after first breakpoint
     .vid {
         width: 800px;
         height: 600px;
-    } 
+    }
 }
-*/
+
+@media screen and (max-width: 479px) {
+    body {
+        background-color: rgb(185, 216, 247);
+    }
+
+    .text {
+        font-size: 150%;
+    }
+
+    .secondpage-text {
+        font-size: 170%;
+    }
+
+    .secondpage-Kevin {
+        font-size: 700%;
+    }
+
+    .basketball-section-header-paragraph-vid {
+        font-size: 190%;
+    }
+
+    .title-section-secondpage {
+        font-size: 200%;
+    }
+
+    .vid {
+        width: 800px;
+        height: 600px;
+    }
+}
