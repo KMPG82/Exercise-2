@@ -157,41 +157,13 @@ nav {
 
 .pic-me:hover,
 .pic-basketball:hover {
-    width: 500px;
+    transform: scale(0.9);
 }
 
 .secondpage-logo-section {
     background-color: #B9C6AE;
     margin: 0%;
     top: 0;
-}
-
-.secondpage-nav-bar {
-    top: 0;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background-color: #588B8B;
-    overflow: hidden;
-    opacity: 0.7;
-    position: sticky;
-}
-
-.secondpage-link {
-    float: right;
-}
-
-.secondpage-link a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    text-transform: uppercase;
-}
-
-.secondpage-link a:hover {
-    background-color: #2b6280;
 }
 
 main {
@@ -298,7 +270,6 @@ main {
     right: 31px;
     border-width: medium;
     border: solid;
-    border-color: white;
     border-color: white;
     border-bottom-width: 10px;
     border-left-width: 10px;
