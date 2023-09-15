@@ -364,32 +364,31 @@ main {
 @media screen and (max-width: 767px) {
     body {
         background-color: rgb(149, 174, 199);
-
     }
 
     .text {
-        font-size: 120%;
+        font-size: 150%;
     }
 
     .secondpage-text {
-        font-size: 170%;
-    }
-
-    .secondpage-Kevin {
-        font-size: 700%;
-    }
-
-    .basketball-section-header-paragraph-vid {
-        font-size: 190%;
-    }
-
-    .title-section-secondpage {
         font-size: 200%;
     }
 
+    .secondpage-Kevin {
+        font-size: 900%;
+    }
+
+    .basketball-section-header-paragraph-vid {
+        font-size: 220%;
+    }
+
+    .title-section-secondpage {
+        font-size: 230%;
+    }
+
     .vid {
-        width: 800px;
-        height: 600px;
+        width: 940px;
+        height: 785px;
     }
 }
 
@@ -399,19 +398,19 @@ main {
     }
 
     .text {
-        font-size: 150%;
+        font-size: 180%;
     }
 
     .secondpage-text {
-        font-size: 170%;
+        font-size: 230%;
     }
 
     .secondpage-Kevin {
-        font-size: 700%;
+        font-size: 1100%;
     }
 
     .basketball-section-header-paragraph-vid {
-        font-size: 190%;
+        font-size: 260%;
     }
 
     .title-section-secondpage {
@@ -419,7 +418,7 @@ main {
     }
 
     .vid {
-        width: 800px;
-        height: 600px;
+        width: 1080px;
+        height: 900px;
     }
 }
