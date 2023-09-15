@@ -56,7 +56,6 @@ nav {
     position: sticky;
     top: 0;
     opacity: 90%;
-    justify-content: end;
 }
 
 .nav-bar {
@@ -73,7 +72,6 @@ nav {
 }
 
 .text {
-    display: block;
     font-size: large;
     color: white;
     padding: 10px 12px;
