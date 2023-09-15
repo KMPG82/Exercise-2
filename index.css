@@ -90,8 +90,6 @@ nav {
 
 .about-me-section {
     display: flex;
-    margin-top: auto;
-    padding: 10px;
     background-color: #A7C4A0;
     flex-wrap: wrap;
     text-align: center;
@@ -162,12 +160,6 @@ nav {
     background-color: #B9C6AE;
     margin: 0%;
     top: 0;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .basketball-section {
@@ -336,27 +328,6 @@ main {
     .text {
         font-size: 120%;
     }
-
-    .secondpage-text {
-        font-size: 170%;
-    }
-
-    .secondpage-Kevin {
-        font-size: 700%;
-    }
-
-    .basketball-section-header-paragraph-vid {
-        font-size: 190%;
-    }
-
-    .title-section-secondpage {
-        font-size: 200%;
-    }
-
-    .vid {
-        width: 800px;
-        height: 600px;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -364,29 +335,12 @@ main {
         background-color: rgb(149, 174, 199);
     }
 
-    .text {
-        font-size: 150%;
-    }
-
-    .secondpage-text {
-        font-size: 200%;
-    }
-
-    .secondpage-Kevin {
+    .Kevin {
         font-size: 900%;
     }
 
-    .basketball-section-header-paragraph-vid {
-        font-size: 220%;
-    }
-
-    .title-section-secondpage {
-        font-size: 230%;
-    }
-
-    .vid {
-        width: 940px;
-        height: 785px;
+    .text {
+        font-size: 150%;
     }
 }
 
@@ -395,28 +349,11 @@ main {
         background-color: rgb(185, 216, 247);
     }
 
-    .text {
-        font-size: 180%;
-    }
-
-    .secondpage-text {
-        font-size: 230%;
-    }
-
-    .secondpage-Kevin {
+    .Kevin {
         font-size: 1100%;
     }
 
-    .basketball-section-header-paragraph-vid {
-        font-size: 260%;
-    }
-
-    .title-section-secondpage {
-        font-size: 200%;
-    }
-
-    .vid {
-        width: 1080px;
-        height: 900px;
+    .text {
+        font-size: 180%;
     }
 }
